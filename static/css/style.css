@@ -1,0 +1,41 @@
+/* CSS Home */
+.jumbotron {
+  padding-top: 18rem;
+  padding-bottom: 19rem;
+  background-color: #eeeeee;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+section {
+  padding-top: 9rem;
+}
+
+.custom-container {
+  overflow-x: hidden;
+}
+
+.custom-container {
+  max-width: 100%;
+}
+
+/* Animasi Pada Gambar Project */
+.project-image {
+  transition: transform 0.3s;
+}
+
+.project-image:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.project-image:active {
+  transform: scale(0.9);
+}
+
+/* Tampilan Teks About Mode Hp*/
+@media (max-width: 767px) {
+  .text-center-mobile p {
+    text-align: center;
+    margin-top: 0;
+  }
+}

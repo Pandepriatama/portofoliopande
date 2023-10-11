@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portofolio Pande</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+  <!-- Boostrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+
+  <!-- Boostrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+  <!-- My CSS -->
+  <link rel="stylesheet" href="static/css/style.css" />
+</head>
+
+<body id="home" class="custom-container">
+
+  <!-- Navbar Awal -->
+  <nav class="navbar navbar-expand-lg navbar-light shadow-sm fixed-top fw-bold" style="background-color: #ffffff">
+    <div class="container">
+      <a class="navbar-brand" href="#">Portofolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#project">Project</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Navbar Akhir -->
+
+  <!-- Jumbotron Awal -->
+  <section class="jumbotron text-center">
+    <h1 class="display-4" style="font-size: 40px;">I Putu Pande Priatama Jaya</h1>
+    <p class="lead" style="font-size: 40px;">PROGRAMMING</p>
+    <a href="#home" type="submit" class="btn btn-dark" style="background-color: #000000">Lihat Lainnya</a>
+  </section>
+
+  <!-- Jumbotron Akhir -->
+
+  <!-- About Awal -->
+  <section id="about" style="padding-bottom: 16rem;">
+    <div class="container">
+      <div class="row text-center mb-3">
+        <div class="col">
+        </div>
+        <div class="row justify-content-center fs-5 text-center">
+          <div class="col-md-5">
+            <img src="static/img/pande.png" alt="King Juice" width="500" class="img-fluid" />
+          </div>
+          <div class="col-md-6 text-center-mobile"
+            style="display: flex; align-items: center; text-align: left; margin-top: 90px;">
+            <p>Hai, Saya Pande! <br>
+              Saya adalah Mahasiswa aktif semester 5 di Universitas Pendidikan Nasional. Saya aktif dalam mengikuti
+              berbagai
+              macam kegiatan, baik di dalam kampus maupun di luar kampus. Pada semester 5 ini saya mengikuti
+              organisasi
+              di
+              tingkat Program Studi, yaitu HIMAPRODI TI dan saya juga mengikuti Studi Independen Bersertifikat di
+              LearningX.
+              <br> <br>
+              <a href="#home" type="submit" class="btn btn-dark" style="background-color: #000000">Download CV </a>
+            </p>
+          </div>
+        </div>
+  </section>
+
+  <!-- About Akhir -->
+
+  <!-- Project Awal -->
+  <section id="project" style=" padding-bottom: 19rem; background-color: #EEEEEE;">
+    <div class="container">
+      <div class="row text-center mb-3"> <br>
+        <div class="col">
+          <h2>Project</h2> <br>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <a href="#home">
+            <img src="static/img/1.png" class="card-img-top project-image" alt="project 1">
+          </a>
+        </div>
+        <div class="col-md-4 mb-3">
+          <a href="#home">
+            <img src="static/img/2.png" class="card-img-top project-image" alt="project 2">
+          </a>
+        </div>
+        <div class="col-md-4 mb-3">
+          <a href="#home">
+            <img src="static/img/3.png" class="card-img-top project-image" alt="project 3">
+          </a>
+          <div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project Akhir -->
+
+  <!-- Contact Awal -->
+  <section id="contact" style="padding-bottom: 7rem;">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col">
+          <h2>Contact</h2>
+        </div>
+      </div>
+      <div class="row justify-content-center mb-3">
+        <div class="col-md-6">
+          <form>
+            <div class="mb-3">
+              <label for="Nama" class="form-label">Nama</label>
+              <input type="text" class="form-control" id="name" aria-describedby="name">
+            </div>
+            <div class="mb-3">
+              <label for="Email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" aria-describedby="email">
+            </div>
+            <div class="mb-3">
+              <label for="Pesan" class="form-label">Pesan</label>
+              <textarea class="form-control" id="pesan" rows="3"></textarea>
+            </div>
+            <a href="#home" type="submit" class="btn btn-dark" style="background-color: #000000">Kirim Pesan</a>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Akhir -->
+
+  <!-- Footer Awal -->
+  <footer style="background-color: #EEEEEE" class="text-dark fw-bold text-center pb-3" p>
+    <p> <br> Created © 2023 by <a href="https://www.instagram.com/pandepriatamaa/" class="text-dark">Pande
+        Priatama</a>
+    </p>
+  </footer>
+
+  <!-- Footer Akhir -->
+
+  <!-- Tombol Kanan Navbar -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
